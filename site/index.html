@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Landtale Online — Adventure Awaits</title>
+<meta name="description" content="Landtale Online is a blocky sandbox adventure MMO. Explore vast biomes, fight, build, and shape a world of your own." />
+<link rel="icon" href="assets/icon.png" />
+<meta property="og:title" content="Landtale Online" />
+<meta property="og:description" content="A blocky sandbox adventure MMO. Explore. Fight. Build." />
+<meta property="og:image" content="assets/hero.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="scrim"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top"><img src="assets/logo.png" alt="Landtale Online" /></a>
+    <nav class="links">
+      <a href="#game">The Game</a>
+      <a href="#worlds">Worlds</a>
+      <a href="#modes">Modes</a>
+      <a href="#news">News</a>
+      <a href="#community">Community</a>
+    </nav>
+    <a class="btn btn-sm" href="#signup">Get Notified</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile" id="mobile">
+    <a href="#game">The Game</a><a href="#worlds">Worlds</a><a href="#modes">Modes</a>
+    <a href="#news">News</a><a href="#community">Community</a><a href="#signup">Get Notified</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-bg" style="background-image:url('assets/hero.jpg')"></div>
+  <div class="hero-fade"></div>
+  <div class="hero-content">
+    <img class="hero-logo" src="assets/logo.png" alt="Landtale Online" />
+    <p class="tagline">A blocky sandbox adventure. Explore endless worlds, battle ancient things, and build a home worth defending.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#signup">Join the Beta</a>
+      <a class="btn btn-ghost" href="#game">Watch the Reveal</a>
+    </div>
+    <div class="stats">
+      <div><b>7</b><span>Biomes</span></div>
+      <div><b>240+</b><span>Creatures</span></div>
+      <div><b>∞</b><span>Worlds</span></div>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#game">Scroll</a>
+</section>
+
+<section class="section" id="game">
+  <div class="wrap">
+    <p class="eyebrow">The Game</p>
+    <h2 class="h2">Every block is a beginning</h2>
+    <p class="lede">Landtale Online drops you into a living, procedurally-crafted realm where handmade dungeons, roaming factions and seasonal weather collide. Adventure alone, or bring a whole server with you.</p>
+    <div class="grid-3">
+      <article class="card">
+        <div class="ico">⚔️</div>
+        <h3>Fluid Combat</h3>
+        <p>Block, parry, dodge-roll and combo. Melee, ranged and elemental magic weave into a system that rewards timing over gear score.</p>
+      </article>
+      <article class="card">
+        <div class="ico">🏰</div>
+        <h3>Deep Building</h3>
+        <p>Thousands of blocks, furniture, redstone-like circuitry and terrain sculpting tools. Build a hut, a harbour or an entire kingdom.</p>
+      </article>
+      <article class="card">
+        <div class="ico">🧭</div>
+        <h3>Endless Exploration</h3>
+        <p>Handcrafted ruins seeded across generated continents. Every cave, shipwreck and sky island hides something worth the trip.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="worlds">
+  <div class="wrap">
+    <p class="eyebrow">Worlds</p>
+    <h2 class="h2">Seven zones. One continent.</h2>
+    <div class="zones">
+      <a class="zone" href="#worlds" style="background-image:url('assets/zone-forest.jpg')">
+        <div class="zone-body"><span class="tag">Zone 1</span><h3>Emberwood</h3><p>Glowing groves, moss-eaten ruins and the Trickster's warrens beneath.</p></div>
+      </a>
+      <a class="zone" href="#worlds" style="background-image:url('assets/zone-desert.jpg')">
+        <div class="zone-body"><span class="tag">Zone 3</span><h3>Sunken Sands</h3><p>Canyon mesas over a buried dynasty. Bring water, and better armour.</p></div>
+      </a>
+      <a class="zone" href="#worlds" style="background-image:url('assets/zone-tundra.jpg')">
+        <div class="zone-body"><span class="tag">Zone 5</span><h3>Hollowfrost</h3><p>Aurora skies, ice-locked caverns and outposts that trade in secrets.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="modes">
+  <div class="wrap">
+    <p class="eyebrow">Modes</p>
+    <h2 class="h2">Play it your way</h2>
+    <div class="grid-4">
+      <div class="mode"><h3>Adventure</h3><p>The full story campaign across all seven zones, solo or co-op.</p></div>
+      <div class="mode"><h3>Creative</h3><p>Unlimited blocks, flight and world-painting tools. No rules.</p></div>
+      <div class="mode"><h3>Minigames</h3><p>Community servers running arenas, races and tower defense.</p></div>
+      <div class="mode"><h3>Modding</h3><p>First-class scripting API, asset pipeline and one-click publishing.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="news">
+  <div class="wrap">
+    <p class="eyebrow">News</p>
+    <h2 class="h2">From the devlog</h2>
+    <div class="grid-3">
+      <article class="post">
+        <div class="thumb" style="background-image:url('assets/zone-tundra.jpg')"></div>
+        <div class="post-body"><span class="date">28 Aug 2026 · Update</span><h3>Hollowfrost enters testing</h3><p>Ice physics, sled traversal and the first raid boss are now live on the test realm.</p></div>
+      </article>
+      <article class="post">
+        <div class="thumb" style="background-image:url('assets/zone-forest.jpg')"></div>
+        <div class="post-body"><span class="date">14 Aug 2026 · Devlog</span><h3>Rebuilding the lighting engine</h3><p>How coloured voxel light let us make every mushroom actually glow.</p></div>
+      </article>
+      <article class="post">
+        <div class="thumb" style="background-image:url('assets/zone-desert.jpg')"></div>
+        <div class="post-body"><span class="date">02 Aug 2026 · Community</span><h3>Build contest: Desert Outposts</h3><p>Sixty entries, one winner, and a build we're adding to the game.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="signup" id="signup">
+  <div class="wrap narrow">
+    <img class="mush" src="assets/icon.png" alt="" />
+    <h2 class="h2">Be first into the beta</h2>
+    <p class="lede">No spam — just launch dates, playtest keys and the occasional screenshot we're too proud of.</p>
+    <form class="form" id="form">
+      <input type="email" required placeholder="you@example.com" aria-label="Email" />
+      <button class="btn btn-primary" type="submit">Notify Me</button>
+    </form>
+    <p class="note" id="note"></p>
+  </div>
+</section>
+
+<footer class="footer" id="community">
+  <div class="wrap foot">
+    <div>
+      <img class="foot-logo" src="assets/logo.png" alt="Landtale Online" />
+      <p class="small">A blocky sandbox adventure, made by a small team who really like caves.</p>
+    </div>
+    <div><h4>Game</h4><a href="#game">Features</a><a href="#worlds">Worlds</a><a href="#modes">Modes</a></div>
+    <div><h4>Community</h4><a href="#community">Discord</a><a href="#community">Forums</a><a href="#community">Wiki</a></div>
+    <div><h4>More</h4><a href="#news">Devlog</a><a href="#community">Press Kit</a><a href="#community">Support</a></div>
+  </div>
+  <div class="wrap bottom"><span>© 2026 Landtale Online. All rights reserved.</span><span>Not affiliated with Hypixel Studios or Hytale.</span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
